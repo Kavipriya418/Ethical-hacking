@@ -1,0 +1,41 @@
+1	 Assume that an organisation X has hired you for the task of Ehical Hacking. The organisation wants to know whether the ports ranging from  80- 1000 at  IP address 192.168.1.1 is in open/closed/filtered state. How will you complete this task.
+2	Certified Hacker is a professional hacking company and assume you are an employee of it. A target IP address 192.168.1.1 is assigned to identify the IP. protocols supported by the targeted system. How would you identify it  
+3	Using Kali Linux start displaying all the hosts that are up and running, along with their respective MAC Addresses and device information for the IP address 10.0.2.1/24
+4	Using the Kali lInux tool perform  an operation to scan port 80 at  IP address 192.168.1.1
+5	Using the Kali lInux tool Perform  an operation to scan ports 80, 443 at  IP address 192.168.1.1
+6	Using the Kali Linux tool Perform Stealth Syn Scan to scan  the IP address 10.0.2.1
+7	Using the Kali lInux tool Perform perform a stealth scan with version detection along with OS detectionto scan  the IP address 10.0.2.1
+8	Determine the operation performed by the command  nmap -p T:80 192.168.1.1     
+9	Using the Kali lInux – Nmap tool determine which IP Protocols (TCP, UDP, ICMP, etc.) are supported by target host  given by the  IP address 192.168.1.1
+10	Determine the operation performed by the command  nmap -sU 192.168.1.1
+11	In your view is it possible to determine the OS of a target system. If YES, then determine the OPERATING SYSTEM of the target IP address: 192.168.1.1     
+12	Determine the operation performed by the command   nmap -p U:53 192.168.1.1
+13	Determine the operation performed by the command  nmap -p U:53,79,113,T:21-25,80,443,8080 192.168.1.1     
+14	Write and execute a command in the Kali Linux – Nmap Tool to  determine  if a host is protected by any Packet Filters or Firewall   
+15	The simple default scan above will check the 1000 most well known ports for each IP address. What if you want to scan ALL ports of the IP range under scope.Write a command to perform scanning of all 65535 ports
+16	Determine the operation performed by the command  nmap  192.168.10.1 192.168.10.111 192.168.10.222
+17	 Determine the operation performed by the command  nmap  192.168.10.100-230     
+18	Determine the operation performed by the command nmap  -p 1-65535 192.168.10.0/24
+19	Perform a Horizontal  scan for the IP addresses   192.168.10.1 192.168.10.111 192.168.10.222
+20	Determine the operation performed by the command nmap  $ nmap router
+21	Determine the operation performed by the command nmap  $ nmap -T4 192.168.1.1.Identify the role of T4 in the command
+22	Determine the operation performed by the command  nmap server1 server2 server2.nixcraft.net.in
+23	Execute the following command using the HARBVESTER tool and  enlist the information gathered
+theHarvester -d www.flipkart.com -b all -l 200
+
+24	Execute the following command using the HARBVESTER tool and  enlist the information gathered
+theHarvester -d www.myntra.com -b all -l 150
+
+25	Execute the following command using the HARBVESTER tool and  enlist the information gathered
+theHarvester -d www.microsoft.com -b all -l 100
+
+26	Using the Wireshark tool perform  data capture operation that was sent in packets
+
+27	Using the harvester tool you can gather information like emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers, and SHODAN computer database. From the above listed information that can be gatehered from the tool identify for the following command 
+theHarvester -d www.saveetha.com -b all -l 300
+28	Using theHarvester to gather information about the domain "www.saveetha.com", with a limit of 300 results, using all available data sources (the "-b all" flag), and to export the results in two formats: HTML and XML files. The result will be saved in the current working directory and will be named "test".
+29	Using Kalilinux nmap tool show the information about email account ,usernames, hostnames and subdomains from different public sources in kali linux operating systems
+30	Using Kalilinux nmap tool to perform various host Discovery scanning using Nmap in Kali Linux operating systems. (i)Only port scan (ii)Only host discover
+31	You are a systems administrator for a small business, and your customers are reporting connectivity issues. Your goal is to troubleshoot the problem by executing the traceroute and ifconfig commands in Windows operating systems
+32	A network administrator for a company and you have been asked to investigate a possible security breach on the network. Your goal is to use Wireshark to capture and analyze network traffic to identify any suspicious activity. Specifically, you want to examine the packets that use SSDP and look at different header fields and payloads of the concerned packets
+33	Ram is a network administrator for a large enterprise and he have been experiencing some network performance issues. His goal is to analyze the network packet transmission using a packet analyzer tool to identify the cause of the problem
